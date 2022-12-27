@@ -62,7 +62,7 @@ async function questions(){
             console.log(chalk.green(`${answers.operator} of ${answers.number1} and ${answers.number2} = ${answers.number1 * answers.number2}`))
         }
         else if(answers.operator=="Division"){
-            console.log(chalk.green(`${answers.operator} of ${answers.number1} and ${answers.number2} = ${answers.number1 + answers.number2}`))
+            console.log(chalk.green(`${answers.operator} of ${answers.number1} and ${answers.number2} = ${answers.number1 / answers.number2}`))
         }
         else if(answers.operator=="Modulus"){
             console.log(chalk.green(`${answers.operator} of ${answers.number1} and ${answers.number2} = ${answers.number1 % answers.number2}`))
